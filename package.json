@@ -1,0 +1,20 @@
+{
+  "name": "front-gemini",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateus Ferraz e Letícia Souza",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^32.1.0",
+    "nodemon": "^3.1.4"
+  },
+  "repository": "https://github.com/lettciaszza/AssistenteVirtual_Front.git",
+  "dependencies": {
+    "front-gemini": "file:"
+  }
+}
